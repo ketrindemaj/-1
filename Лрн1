@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    const double PI = 3.14;
+    double R, L, S;
+
+    // Ввод радиуса круга
+    cout << "Enter the radius of the circle: ";
+    cin >> R;
+
+    // Вычисление длины окружности и площади круга
+    L = 2 * PI * R;
+    S = PI * R * R;
+
+    // Вывод результатов
+    cout << "Circumference: " << L << endl;
+    cout << "Area of a circle: " << S << endl;
+
+    return 0;
+}
